@@ -1,4 +1,8 @@
-body {
+
+
+img {
+    position: sticky;
+    border: 10px solid black;
+    margin: auto;
    
-    background: #rrggbb;
 }

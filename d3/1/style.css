@@ -1,0 +1,16 @@
+body {
+    font-size: 2em;
+    font-family: monospace;
+}
+
+
+.lines {
+    stroke: yellow;
+    stroke-width: 10px;
+}
+
+.lines path {
+    stroke: blue;
+    stroke-linejoin: round;
+    
+}
