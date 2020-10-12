@@ -20,9 +20,11 @@ log("messa"); */
 
 console.log(path.parse(__filename)); */
 
-const os = require("os");
+/* const os = require("os");
 var totalMemory = os.totalmem();
 var freeMemory = os.freemem();
 
 console.log(`Total memory: ${totalMemory}`);
 console.log(`free memory: ${freeMemory}`);
+ */
+        
