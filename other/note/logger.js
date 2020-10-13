@@ -64,3 +64,39 @@ function sumOfDigits(num) {
 
 console.log(sumOfDigits(100)); */
 
+
+
+
+/* var y = require("./script.js");
+
+console.log(y(1, 2))  */
+
+
+
+
+
+/* export function x(){
+    return "ahoj";
+} */
+
+
+/* 
+function x(){
+    return "ahoj";
+}
+module.exports = x; */
+
+
+
+/* function x(){
+    return "ahoj";
+}
+module.exports.toto = x; */
+
+var x = require("os");
+function pamety(){
+    console.log(x.freemem());
+}
+var pamet = pamety()
+
+module.exports.toto = pamet
