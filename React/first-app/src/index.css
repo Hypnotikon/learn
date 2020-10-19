@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #ababab;
+  color: #222222;
+}
+
+.booklist {
+  background: chartreuse;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.book {
+  
+}
+
+* img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid blue;
+}
+
+
+
+.ahoj {
+  background-color: violet;
+  padding: 5px;
+}
