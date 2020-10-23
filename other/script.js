@@ -1,3 +1,2 @@
-var x
-x = 10;
-console.log(x);
+
+console.log(7 >> 2)
