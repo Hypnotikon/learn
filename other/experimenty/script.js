@@ -777,8 +777,577 @@ console.log(xx(1,2,3,4,5,6)) */
 
 
 
-  let obj = {self: '123'};
+/*   let obj = {self: '123'};
 obj.__proto__.prot = '456';
 const {self, prot} = obj;
 console.log(self);
-console.log(prot);
+console.log(prot); */
+
+
+/* var x = document.getElementById("class")
+var z = document.getElementById("tady")
+var pole = [""];
+
+
+var nova = document.createElement("p")
+var note = document.createTextNode("here you go and I go to bed NOW!")
+nova.appendChild(note)
+
+var kont = document.getElementById("kont")
+kont.appendChild(nova);
+
+
+x.addEventListener('keydown', function(value) {
+    var key = value.key;
+    pole.push(key) 
+    z.innerHTML += key;
+    if(pole.length>10){
+        z.innerHTML ="";
+        pole.splice(0,pole.length)
+    }
+}); */
+
+/* const filePath = String.raw`C:\Development\profile\aboutme.html`;
+
+console.log(`The file was uploaded from: ${filePath}`); */
+
+
+/* var one = 1, two = 2;
+console.log(one + two)
+ */
+
+/* 
+ function prime(numm){
+     var x;
+     for(let i =2;i<numm;i++){
+         if(numm%i==0){
+            x="not prime";
+           break;  
+        }
+        else{
+            x="is prime"
+        }
+     }
+     return x
+ }
+
+
+ console.log(prime(141411254941439)); */
+
+
+/*  function isPrime(num) {
+    for(var i = 2; i < num; i++)
+      if(num % i === 0){return false}
+      return num > 1;
+  }
+
+  console.log(isPrime(15)); */
+
+
+/*   let yourName;
+  while (!yourName){
+yourName = prompt("Who are you?");
+} 
+console.log(yourName); */
+
+/* 
+for (let current = 20; ; current = current + 1) {
+    if (current % 7 == 0) {
+    console.log(current);
+    break;
+    }
+    }
+    // → 21 */
+
+/* 
+for(let i =0;i<100;i++){
+    if(i%5==0&&i%3==0){
+        console.log("fuzzbuzz")
+    }
+    else if(i%3==0){
+        console.log("fuzz")
+    }
+    else if(i%5==0){
+        console.log("buzz")
+    }
+    else{console.log(i)}
+} */
+
+/* 
+var x = 5
+var y = 5
+var odpoved = ""
+for(i=0;i<y;i++){
+    if(i%2==0){
+    odpoved += "# ".repeat(x) + "\n "
+}
+else{
+    odpoved += "# ".repeat(x) + "\n"
+}
+}
+console.log(odpoved); */
+
+
+
+
+
+/* 
+function wrap(n){
+    return n;
+}
+
+var first = wrap(1)
+var second = wrap(2)
+
+console.log(first);
+console.log(second); */
+
+/* 
+function x(factor){
+    return number => number * factor
+}
+
+
+var fiv = x(5);
+console.log(fiv(2)); */
+
+/* function findSolution(target) {
+    function find(current, history) {
+    if (current == target) {
+    return history;
+    } else if (current > target) {
+    return null;
+    } else {
+    return find(current + 5, `(${history} + 5)`) ||
+    find(current * 3, `(${history} * 3)`);
+    }
+    }
+    return find(1, "1");
+    }
+    console.log(findSolution(96)); */
+
+
+/*     function farmat(x,y){
+        var cows = String(x)
+        while(cows.length<3){
+            cows = "0" + cows
+        }
+        var chick = String(y)
+        while(chick.length<3){
+            chick = "0" + chick
+        }
+        return `${cows}, ${chick}`
+    }
+
+    console.log(farmat(10,1)); */
+
+
+
+
+    /* function farma(arg,widh){
+        var str = String(arg)
+        while(str.length<widh){
+            str = "0" + str
+        }
+        return str
+    }
+
+    function animals(){
+        console.log(`${farma(16,3), "cows" }`)
+        console.log(`${farma(55,5),"pigs"}`)
+        console.log(`${farma(7,3), "zebras"}`)
+    }
+
+    animals(7,5,6) */
+
+
+
+
+/* 
+    function farma(arg){
+        console.log(arg.length);
+        var pole = [];
+        for(let i =0;i<arg.length;i++){
+            var str = String(arg[i])
+            while(str.length<3){
+                str = "0" + str
+            }
+            pole.push(str)
+        }
+        console.log(pole);
+
+    }
+
+    var x = [55,1,333,6,5,777,55]
+    farma(x) */
+
+
+/* var x = "jak se máš ty B ty B jáá B jsdf lB BB"
+
+function xx(arg){
+    var pattern = /b/gi
+    var result = arg.match(pattern)
+    console.log(result.length)
+}
+
+xx(x); */
+
+
+
+/* var obs = {left:"2", right:"3"};
+var y = Object.assign(obs, {mid:"5"});
+console.log(Object.keys(obs))
+console.log(y) */
+
+
+/* var obs = {event:["run", "swim", "walk"], action:["eat", "drink", "sleep"]}
+
+console.log(obs.event[2]); */
+
+
+/* var obs = {action:"run", event:"sleep"}
+var obn = {action:"run",event:"sleep"}
+
+function comp(obs,obn){
+    var result =false;
+    var x = Object.values(obs)
+    var y = Object.values(obn)
+    for(let i =0;i<x.length;i++){
+        result = false
+        for(let k=0;k<y.length;k++){
+            if(x[i]==y[k]){
+            result = true
+            }
+        }
+        if(result ==false){
+            break
+        }
+    }
+    console.log(result);
+}
+
+comp(obs,obn) */
+
+
+
+
+
+
+
+
+/* function prim(n){
+    var result;
+    for(let i =2;i<n;i++){
+        if(n%i==0){
+            result = false;
+            break;
+        }
+        else{
+            result = true;
+        }
+        
+    }
+    return result;
+}
+
+console.log(prim(15)) */
+
+
+
+/* 
+function xx(...numbers){
+    var result = -Infinity
+    for(let x of numbers){
+        if(x>result){
+            result = x
+        }
+    }
+    return result
+
+}
+
+console.log(xx(1,5,7,8,4,15)) */
+
+
+
+
+
+
+/* var x = [1,2,3,4,8,7,1,5,7]
+var y = x.sort((a,b) => a-b)
+console.log(y) */
+
+/* 
+let horseShoe = "🐴👟";
+console.log(horseShoe.length);
+
+console.log(horseShoe.charCodeAt(0))
+console.log(horseShoe.length())
+console.log(horseShoe.codePointAt(0)) */
+
+
+
+
+
+
+/* function procenta(...pole){
+    var malo =[] ;
+    var stredne = [];
+    var hodne = [];
+    pole.forEach((x)=>{ if(x<10){
+    malo.push(x)
+    }
+    else if(x<100){
+        stredne.push(x)
+    }
+   else { hodne.push(x)
+   }
+})
+
+    
+    if(((malo.length/pole.length) * 100)%1<0.5){
+       malo = Math.floor((malo.length/pole.length) * 100)
+    }
+    else{malo = Math.ceil((malo.length/pole.length) * 100)}
+
+    if(((stredne.length/pole.length) * 100)%1<0.5){
+       stredne = Math.floor((stredne.length/pole.length) * 100)
+    }
+    else{stredne = Math.ceil((stredne.length/pole.length) * 100)}
+
+    if(((hodne.length/pole.length) * 100)%1<0.5){
+        hodne = Math.floor((hodne.length/pole.length) * 100)
+    }
+    else{hodne = Math.ceil((hodne.length/pole.length) * 100)} 
+    var pole = [malo,stredne,hodne]
+    pole = pole.
+    while(malo+stredne+hodne>100){
+        var z= Math.max(malo,stredne,hodne)
+
+    }
+
+    return(`malých čísel je ${malo}%, středních je ${stredne}% a velkých je ${hodne}%`)
+}
+
+console.log(procenta(1,2,3,55,77,125,157,8,5524,1,577,885))  
+
+ */
+
+
+/* 
+x = 15
+y = 77
+z = 77
+
+
+var pole = [x,y,z]
+var pole2 = pole.toString(pole)
+console.log(pole2)
+pole = pole.sort((a,b) => a - b)
+var obj = {}
+var jmeno = 0
+for(let x of pole){
+    obj[pole2[jmeno]] = x
+    jmeno++
+}
+console.log(obj) */
+
+
+/* 
+x = 15
+y = 77
+z = 77
+var array = [x,y,z]
+
+var obj = {}
+var i = 0
+for(let x of array){
+obj[i] = x
+i++
+}
+
+console.log(obj) */
+
+
+/* class Duck{
+    constructor(name,age){
+        this.name = name
+        this.age = age
+    }
+    shock(){
+        return "ahoj jak se máš"
+    }
+    static hello(){
+        return "co tu děláš"
+    }
+
+}
+
+class Pig extends Duck{
+    constructor(name,age,x){
+        super(name,age)
+        this.x = x
+    }
+    shocker(xxx){
+        return this.shock() + "ahoj" + "je ti" + xxx
+    }
+}
+
+var test = new Duck("dom",25)
+var x = new Duck("dom", 25)
+var y = new Duck("hon", 33)
+var o = new Pig("tron",55,"x")
+var p = new Pig("tron",45,"x")
+console.log(Duck.hello()) */
+
+
+/* 
+
+class Car {
+    constructor(brand) {
+      this.carname = brand;
+    }
+    present() {
+      return 'I have a ' + this.carname;
+    }
+  }
+  
+  class Model extends Car {
+    constructor(brand, mod) {
+      super(brand);
+      this.model = mod;
+    }
+    show() {
+      return this.present() + ', it is a ' + this.model;
+    }
+  }
+  
+  mycar = new Model("Ford", "Mustang");
+  document.getElementById("demo").innerHTML = mycar.show(); */
+
+
+
+/* var person = {
+firstName: "John",
+  lastName : "Doe",
+  language : "en",
+  get lang(){
+      return this.firstName + this.language
+  }
+}
+
+console.log(person.lang) */
+
+
+/* var obj = {counter : 5}
+
+Object.defineProperty(obj, "reset",{
+    get : function() {this.counter = 0}
+})
+
+Object.defineProperty(obj, "add", {
+    set : function(value){this.counter -=value}
+})
+
+Object.defineProperty(obj, "min", {
+    set : function(value){this.counter -=value}
+})
+obj.add = 6
+console.log(obj)
+
+var x = {
+    name:"dom",
+    age:25,
+    get both(){return this.name + this.age}
+}
+
+console.log(x.both) */
+
+
+
+
+/* var x ={name:"dom"}
+
+
+Object.defineProperty(x,"age", {xx: function(){"hello there"}})
+
+console.log(x.xx()) */
+
+
+
+
+/* var player = {
+    name:"dom",
+    age:25,
+    sex:"male",
+    level:3,
+    get health(){return 10 + player.level * 15}
+}
+
+console.log(player.health) */
+
+
+/* Object.defineProperty(player, "health", {
+    get: function () {
+        return 10 + ( player.level * 15 );
+    }
+}) */
+
+
+
+/* var foo = 1;
+var output = 'Output: ';
+switch (foo) {
+  case 0:
+    output += 'So ';
+  case 1:
+    output += 'What ';
+    output += 'Is ';
+  case 2:
+    output += 'Your ';
+  case 3:
+    output += 'Name';
+  case 4:
+    output += '?';
+    console.log(output);
+    break;
+  case 5:
+    output += '!';
+    console.log(output);
+    break;
+  default:
+    console.log('Please pick a number from 0 to 5!'); */
+
+/* expr = "Bananas";
+
+switch (expr) {
+    case 'Oranges':
+      console.log('Oranges are $0.59 a pound.');
+    case 'Apples':
+      console.log('Apples are $0.32 a pound.');
+    case 'Bananas':
+      console.log('Bananas are $0.48 a pound.');
+    case 'Cherries':
+      console.log('Cherries are $3.00 a pound.');
+    case 'Mangoes':
+    case 'Papayas':
+      console.log('Mangoes and papayas are $2.79 a pound.');
+      
+    default:
+      console.log('Sorry, we are out of ' + expr + '.');
+  }
+  
+  console.log("Is there anything else you'd like?"); */
+
+
+
+  function reve(x){
+    
+    let delka = x.length
+    let z = x[delka-1]
+    return +z +1
+ }
+
+z = "ahoj magore1"
+
+console.log(reve(z))
