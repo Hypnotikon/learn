@@ -1015,4 +1015,169 @@ console.log(x);
 // Notice the division operator (/)
 console.log(echo("left", 6) / echo("right", 2)); */
 
+/* function add(num){
+    return num
+}
+console.log(add(50) / add(10) / add(2));
+console.log(add(50) * add(10) ** add(2))
+ */
 
+
+/* const a = { duration: 50, title: '' };
+
+a.duration ||= 10;
+console.log(a.duration);
+// expected output: 50
+
+a.title ||= 'title is empty.';
+console.log(a.title);
+// expected output: "title is empty" */
+
+
+/* 
+var y ="trouba"
+
+var x = y ?? "jojo";
+console.log(x)
+ */
+
+/* var x = null
+var y;
+
+const valA = !x ? "hoe" : "hey"
+
+
+console.log(typeof x)
+console.log(typeof y)
+console.log(x==y) */
+
+/* var y= 10
+var z = 20
+
+var x = y||=z
+console.log(x)
+ */
+
+
+
+/* const a = { duration: 50, title: "fsdfsd"};
+
+a.duration || 10;
+console.log(typeof a.title)
+typeof a.title === "undefined" ? a.title = "10": null
+console.log(a.title)
+
+
+
+
+
+const a = { duration: 50 };
+
+a.duration ??= 10;
+console.log(a.duration);
+// expected output: 50
+
+a.speed ??= 25;
+console.log(a.speed);
+// expected output: 25 */
+/* 
+
+ const fruitBasket = ['banana', 'cherry', 'orange', 'apple', 'cherry', 'orange', 'apple', 'banana', 'cherry', 'orange', 'fig' ];
+
+const count = fruitBasket.reduce( (tally, fruit) => {
+  tally[fruit] = !tally[fruit] ? 1 : tally[fruit] + 1
+  return tally;
+} , {})
+console.log(count);  */
+
+
+
+ 
+/* const fruitBasket = [[[['banana']]], 'cherry', 'orange', 'apple', 'cherry', 'orange', 'apple', 'banana', 'cherry', 'orange', 'fig' ];
+
+console.log(fruitBasket.indexOf("banana")) */
+/* 
+const count = fruitBasket.reduce( (tally, fruit, index) => {
+  tally += 
+  return tally;
+} , [])
+console.log(count); 
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+  for(let i =0;i<5;++i){
+       x[i] = []
+       for(let j =0;j<5;++j){
+        x[i].push(j)
+       }
+  } */
+
+
+
+/* 
+ var y = [1,2,3,4,5,1,2,5,7]
+
+
+function xxx(pole, arg){
+var numer = 7
+var result = []
+if(pole.indexOf(arg,numer)<0){
+    console.log("asi jo")
+}
+
+result.push(pole.indexOf(arg,numer));
+return result
+}
+
+console.log(xxx(y,1)) 
+ */
+
+
+
+/* 
+var y = [7,2,3,1,4,5,1,2,5,7]
+
+
+
+function index(pole,arg){
+    var num = 0;
+    var result =[]
+    while(pole.indexOf(arg,num)>-1){
+        result.push(pole.indexOf(arg,num))
+        num = result[result.length-1] + 1
+
+    }
+    console.log(num)
+    return result
+}
+console.log(index(y,1))
+ */
+
+
+
+/*   var y = [1,2,3,4,5,1,2,5,7]
+      y.push(y.indexOf(1,5))
+      console.log(y[y.length-1])
+console.log(y)  */
+
+
+var x = new Set
+x.add([1,2,3,4,5])
+x.add([1,2,3,4,5])
+x.add(1)
+x.add(1)
+console.log(x)
