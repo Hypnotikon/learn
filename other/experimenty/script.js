@@ -1340,7 +1340,7 @@ switch (expr) {
   console.log("Is there anything else you'd like?"); */
 
 
-
+/* 
   function reve(x){
     
     let delka = x.length
@@ -1350,4 +1350,13 @@ switch (expr) {
 
 z = "ahoj magore1"
 
-console.log(reve(z))
+console.log(reve(z)) */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+div{
+   width: 50px;
+   
+    position: relative;
+    border: 5px solid black;
+}
+
+p:nth-child(n+2){
+    display: none;
+    
+}
+
+p{
+    text-align: center;
+    text-decoration: wavy;
+    cursor: pointer;
+}
+
+body{
+    background;
+    background-image: linear-gradient(red, yellow, blue);
+}

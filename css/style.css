@@ -1,0 +1,65 @@
+/* #main {
+
+    width: 150px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    /* align-content: center */
+
+/* 
+div > div{
+    margin: 10px 0px;
+    width: 70px;
+    height: 80px;
+} */ 
+/* 
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #c3c3c3;
+}
+
+
+div > div {
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    align-self: center;
+
+}
+
+.wrapper { color: orange; }
+
+.wrapper p { color: purple; }
+
+p.one { color: inherit; }
+
+p.two { color: initial; }
+
+p.three { color: unset; }
+
+input {
+    caret-color:;
+} */
+div {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+  }
+
+  div::after {
+    content: "sadasa";
+    background: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: ;   
+  }
